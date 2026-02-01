@@ -29,7 +29,7 @@ After signing in with Google, the app fetches basic profile data along with **ge
 
 ## 📁 Project Structure
 
-'''text
+```text
 .
 ├── server.py
 ├── templates/
@@ -59,7 +59,7 @@ After signing in with Google, the app fetches basic profile data along with **ge
 1. Go to Google Cloud Console
 2. Create OAuth 2.0 credentials (Web Application)
 3. Add Authorized Redirect URI:
-'''bash
+```bash
 http://localhost:5005/signin-google
 4. Enable People API
 5. Add required scopes:
@@ -71,7 +71,7 @@ http://localhost:5005/signin-google
 
 ## ▶️ Running the Application 
 
-'''bash
+```bash
 python server.py
 
 The app will start running on  **http://localhost:5005**
