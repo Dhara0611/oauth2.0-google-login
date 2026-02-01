@@ -32,9 +32,8 @@ After signing in with Google, the app fetches basic profile data along with **ge
 .
 ├── server.py
 ├── templates/
-│ └── home.html
+│   └── home.html
 └── README.md
-
 
 ---
 
