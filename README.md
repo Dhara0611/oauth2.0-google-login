@@ -35,7 +35,7 @@ After signing in with Google, the app fetches basic profile data along with **ge
 ├── templates/
 │   └── home.html
 └── README.md
-
+```
 ---
 
 ## 🔐 Prerequisites
@@ -61,6 +61,7 @@ After signing in with Google, the app fetches basic profile data along with **ge
 3. Add Authorized Redirect URI:
 ```bash
 http://localhost:5005/signin-google
+```
 4. Enable People API
 5. Add required scopes:
     - openid
@@ -73,6 +74,7 @@ http://localhost:5005/signin-google
 
 ```bash
 python server.py
+```
 
 The app will start running on  **http://localhost:5005**
 
