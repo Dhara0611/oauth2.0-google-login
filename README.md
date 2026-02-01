@@ -29,6 +29,7 @@ After signing in with Google, the app fetches basic profile data along with **ge
 
 ## 📁 Project Structure
 
+'''text
 .
 ├── server.py
 ├── templates/
